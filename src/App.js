@@ -23,7 +23,7 @@ function App() {
 </form>
 
     {/* { first.length>0 && last.length>0 && (<p>Full Name: {first+' '+last}</p>)} */}
-    {fullname? (<div>Full name: {fullname}</div>):''}
+    {fullname? (<div>Full Name: {fullname}</div>):''}
     </div>
   );
 }
