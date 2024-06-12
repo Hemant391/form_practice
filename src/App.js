@@ -22,9 +22,10 @@ function App() {
 </form>
 
     {/* { first.length>0 && last.length>0 && (<p>Full Name: {first+' '+last}</p>)} */}
-    {fullname? (<p>Full name : {fullname}</p>):''}
+    {fullname? (<p>Full name: {fullname}</p>):''}
     </div>
   );
 }
+//It will help
 
 export default App;
