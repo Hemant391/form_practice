@@ -9,7 +9,7 @@ function App() {
 
   const handlesubmit=(e)=>{
     e.preventDefault()
-    setFullname('Full name: '+ first+' '+last)
+    setFullname(first+' '+last)
     console.log(fullname)
   }
   
@@ -23,7 +23,7 @@ function App() {
 </form>
 
     {/* { first.length>0 && last.length>0 && (<p>Full Name: {first+' '+last}</p>)} */}
-    {fullname? (<p>{fullname}</p>):''}
+    {fullname? (<div>Full name: {fullname}</div>):''}
     </div>
   );
 }
